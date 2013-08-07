@@ -1,0 +1,231 @@
+/* line 8, ../sass/screen.sass */
+body {
+  padding: 100px;
+  margin: 20px auto;
+  width: 500px;
+  height: 500px;
+}
+
+/* line 13, ../sass/screen.sass */
+#wrapper {
+  border: 1px solid #cccccc;
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+/* line 18, ../sass/screen.sass */
+#wrapper i {
+  font-size: 165px;
+  line-height: 145px;
+  position: absolute;
+  -webkit-animation: rollaround 5s linear infinite;
+  -moz-animation: rollaround 5s linear infinite;
+  -ms-animation: rollaround 5s linear infinite;
+  -o-animation: rollaround 5s linear infinite;
+  animation: rollaround 5s linear infinite;
+}
+
+@-moz-keyframes rollaround {
+  /* line 25, ../sass/screen.sass */
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 0px;
+    top: 0px;
+  }
+
+  /* line 29, ../sass/screen.sass */
+  25% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+    left: 0px;
+    top: 360px;
+  }
+
+  /* line 33, ../sass/screen.sass */
+  50% {
+    -moz-transform: rotate(720deg);
+    transform: rotate(720deg);
+    left: 360px;
+    top: 360px;
+  }
+
+  /* line 37, ../sass/screen.sass */
+  75% {
+    -moz-transform: rotate(1080deg);
+    transform: rotate(1080deg);
+    left: 360px;
+    top: 0px;
+  }
+
+  /* line 41, ../sass/screen.sass */
+  100% {
+    -moz-transform: rotate(1440deg);
+    transform: rotate(1440deg);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@-webkit-keyframes rollaround {
+  /* line 25, ../sass/screen.sass */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 0px;
+    top: 0px;
+  }
+
+  /* line 29, ../sass/screen.sass */
+  25% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    left: 0px;
+    top: 360px;
+  }
+
+  /* line 33, ../sass/screen.sass */
+  50% {
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
+    left: 360px;
+    top: 360px;
+  }
+
+  /* line 37, ../sass/screen.sass */
+  75% {
+    -webkit-transform: rotate(1080deg);
+    transform: rotate(1080deg);
+    left: 360px;
+    top: 0px;
+  }
+
+  /* line 41, ../sass/screen.sass */
+  100% {
+    -webkit-transform: rotate(1440deg);
+    transform: rotate(1440deg);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@-o-keyframes rollaround {
+  /* line 25, ../sass/screen.sass */
+  0% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 0px;
+    top: 0px;
+  }
+
+  /* line 29, ../sass/screen.sass */
+  25% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    left: 0px;
+    top: 360px;
+  }
+
+  /* line 33, ../sass/screen.sass */
+  50% {
+    -o-transform: rotate(720deg);
+    transform: rotate(720deg);
+    left: 360px;
+    top: 360px;
+  }
+
+  /* line 37, ../sass/screen.sass */
+  75% {
+    -o-transform: rotate(1080deg);
+    transform: rotate(1080deg);
+    left: 360px;
+    top: 0px;
+  }
+
+  /* line 41, ../sass/screen.sass */
+  100% {
+    -o-transform: rotate(1440deg);
+    transform: rotate(1440deg);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@-ms-keyframes rollaround {
+  /* line 25, ../sass/screen.sass */
+  0% {
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 0px;
+    top: 0px;
+  }
+
+  /* line 29, ../sass/screen.sass */
+  25% {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    left: 0px;
+    top: 360px;
+  }
+
+  /* line 33, ../sass/screen.sass */
+  50% {
+    -ms-transform: rotate(720deg);
+    transform: rotate(720deg);
+    left: 360px;
+    top: 360px;
+  }
+
+  /* line 37, ../sass/screen.sass */
+  75% {
+    -ms-transform: rotate(1080deg);
+    transform: rotate(1080deg);
+    left: 360px;
+    top: 0px;
+  }
+
+  /* line 41, ../sass/screen.sass */
+  100% {
+    -ms-transform: rotate(1440deg);
+    transform: rotate(1440deg);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes rollaround {
+  /* line 25, ../sass/screen.sass */
+  0% {
+    transform: rotate(0deg);
+    left: 0px;
+    top: 0px;
+  }
+
+  /* line 29, ../sass/screen.sass */
+  25% {
+    transform: rotate(360deg);
+    left: 0px;
+    top: 360px;
+  }
+
+  /* line 33, ../sass/screen.sass */
+  50% {
+    transform: rotate(720deg);
+    left: 360px;
+    top: 360px;
+  }
+
+  /* line 37, ../sass/screen.sass */
+  75% {
+    transform: rotate(1080deg);
+    left: 360px;
+    top: 0px;
+  }
+
+  /* line 41, ../sass/screen.sass */
+  100% {
+    transform: rotate(1440deg);
+    left: 0px;
+    top: 0px;
+  }
+}

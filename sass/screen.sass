@@ -1,0 +1,45 @@
+@import "compass/css3"
+@import "animation"
+
+=size($val)
+  width: $val
+  height: $val
+
+body
+  padding: 100px
+  margin: 20px auto
+  +size(500px)
+
+#wrapper
+  border: 1px solid #ccc
+  position: relative
+  +size(500px)
+
+  i
+    font-size: 165px
+    line-height: 145px
+    position: absolute
+    +animation(rollaround 5s linear infinite)
+
++keyframes(rollaround)
+  0%
+    @include rotate(0deg)
+    left: 0px
+    top: 0px
+  25%
+    @include rotate(360deg)
+    left: 0px
+    top: 360px
+  50%
+    @include rotate(720deg)
+    left: 360px
+    top: 360px
+  75%
+    @include rotate(1080deg)
+    left: 360px
+    top: 0px
+  100%
+    @include rotate(1440deg)
+    left: 0px
+    top: 0px
+
