@@ -15,6 +15,7 @@ body
   position: relative
   +size(500px)
 
+body.rollaround
   i
     font-size: 165px
     line-height: 145px
@@ -42,4 +43,36 @@ body
     @include rotate(1440deg)
     left: 0px
     top: 0px
+
+body.ios
+  i
+    position: absolute
+    &.one
+      font-size: 80px
+      top: 100px
+      left: 100px
+      +animation(clockwise 10s linear infinite)
+    &.two
+      font-size: 100px
+      top: 50px
+      left: 150px
+      +animation(counterclockwise 10s linear infinite)
+    &.three
+      font-size: 80px
+      top: 98px
+      left: 220px
+      +animation(clockwise 10s linear infinite)
+
+
++keyframes(clockwise)
+  0%
+    @include rotate(0deg)
+  100%
+    @include rotate(360deg)
++keyframes(counterclockwise)
+  0%
+    @include rotate(360deg)
+  100%
+    @include rotate(0deg)
+
 

@@ -13,8 +13,9 @@ body {
   width: 500px;
   height: 500px;
 }
-/* line 18, ../sass/screen.sass */
-#wrapper i {
+
+/* line 19, ../sass/screen.sass */
+body.rollaround i {
   font-size: 165px;
   line-height: 145px;
   position: absolute;
@@ -26,7 +27,7 @@ body {
 }
 
 @-moz-keyframes rollaround {
-  /* line 25, ../sass/screen.sass */
+  /* line 26, ../sass/screen.sass */
   0% {
     -moz-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -34,7 +35,7 @@ body {
     top: 0px;
   }
 
-  /* line 29, ../sass/screen.sass */
+  /* line 30, ../sass/screen.sass */
   25% {
     -moz-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -42,7 +43,7 @@ body {
     top: 360px;
   }
 
-  /* line 33, ../sass/screen.sass */
+  /* line 34, ../sass/screen.sass */
   50% {
     -moz-transform: rotate(720deg);
     transform: rotate(720deg);
@@ -50,7 +51,7 @@ body {
     top: 360px;
   }
 
-  /* line 37, ../sass/screen.sass */
+  /* line 38, ../sass/screen.sass */
   75% {
     -moz-transform: rotate(1080deg);
     transform: rotate(1080deg);
@@ -58,7 +59,7 @@ body {
     top: 0px;
   }
 
-  /* line 41, ../sass/screen.sass */
+  /* line 42, ../sass/screen.sass */
   100% {
     -moz-transform: rotate(1440deg);
     transform: rotate(1440deg);
@@ -68,7 +69,7 @@ body {
 }
 
 @-webkit-keyframes rollaround {
-  /* line 25, ../sass/screen.sass */
+  /* line 26, ../sass/screen.sass */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -76,7 +77,7 @@ body {
     top: 0px;
   }
 
-  /* line 29, ../sass/screen.sass */
+  /* line 30, ../sass/screen.sass */
   25% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -84,7 +85,7 @@ body {
     top: 360px;
   }
 
-  /* line 33, ../sass/screen.sass */
+  /* line 34, ../sass/screen.sass */
   50% {
     -webkit-transform: rotate(720deg);
     transform: rotate(720deg);
@@ -92,7 +93,7 @@ body {
     top: 360px;
   }
 
-  /* line 37, ../sass/screen.sass */
+  /* line 38, ../sass/screen.sass */
   75% {
     -webkit-transform: rotate(1080deg);
     transform: rotate(1080deg);
@@ -100,7 +101,7 @@ body {
     top: 0px;
   }
 
-  /* line 41, ../sass/screen.sass */
+  /* line 42, ../sass/screen.sass */
   100% {
     -webkit-transform: rotate(1440deg);
     transform: rotate(1440deg);
@@ -110,7 +111,7 @@ body {
 }
 
 @-o-keyframes rollaround {
-  /* line 25, ../sass/screen.sass */
+  /* line 26, ../sass/screen.sass */
   0% {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -118,7 +119,7 @@ body {
     top: 0px;
   }
 
-  /* line 29, ../sass/screen.sass */
+  /* line 30, ../sass/screen.sass */
   25% {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -126,7 +127,7 @@ body {
     top: 360px;
   }
 
-  /* line 33, ../sass/screen.sass */
+  /* line 34, ../sass/screen.sass */
   50% {
     -o-transform: rotate(720deg);
     transform: rotate(720deg);
@@ -134,7 +135,7 @@ body {
     top: 360px;
   }
 
-  /* line 37, ../sass/screen.sass */
+  /* line 38, ../sass/screen.sass */
   75% {
     -o-transform: rotate(1080deg);
     transform: rotate(1080deg);
@@ -142,7 +143,7 @@ body {
     top: 0px;
   }
 
-  /* line 41, ../sass/screen.sass */
+  /* line 42, ../sass/screen.sass */
   100% {
     -o-transform: rotate(1440deg);
     transform: rotate(1440deg);
@@ -152,7 +153,7 @@ body {
 }
 
 @-ms-keyframes rollaround {
-  /* line 25, ../sass/screen.sass */
+  /* line 26, ../sass/screen.sass */
   0% {
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -160,7 +161,7 @@ body {
     top: 0px;
   }
 
-  /* line 29, ../sass/screen.sass */
+  /* line 30, ../sass/screen.sass */
   25% {
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -168,7 +169,7 @@ body {
     top: 360px;
   }
 
-  /* line 33, ../sass/screen.sass */
+  /* line 34, ../sass/screen.sass */
   50% {
     -ms-transform: rotate(720deg);
     transform: rotate(720deg);
@@ -176,7 +177,7 @@ body {
     top: 360px;
   }
 
-  /* line 37, ../sass/screen.sass */
+  /* line 38, ../sass/screen.sass */
   75% {
     -ms-transform: rotate(1080deg);
     transform: rotate(1080deg);
@@ -184,7 +185,7 @@ body {
     top: 0px;
   }
 
-  /* line 41, ../sass/screen.sass */
+  /* line 42, ../sass/screen.sass */
   100% {
     -ms-transform: rotate(1440deg);
     transform: rotate(1440deg);
@@ -194,38 +195,212 @@ body {
 }
 
 @keyframes rollaround {
-  /* line 25, ../sass/screen.sass */
+  /* line 26, ../sass/screen.sass */
   0% {
     transform: rotate(0deg);
     left: 0px;
     top: 0px;
   }
 
-  /* line 29, ../sass/screen.sass */
+  /* line 30, ../sass/screen.sass */
   25% {
     transform: rotate(360deg);
     left: 0px;
     top: 360px;
   }
 
-  /* line 33, ../sass/screen.sass */
+  /* line 34, ../sass/screen.sass */
   50% {
     transform: rotate(720deg);
     left: 360px;
     top: 360px;
   }
 
-  /* line 37, ../sass/screen.sass */
+  /* line 38, ../sass/screen.sass */
   75% {
     transform: rotate(1080deg);
     left: 360px;
     top: 0px;
   }
 
-  /* line 41, ../sass/screen.sass */
+  /* line 42, ../sass/screen.sass */
   100% {
     transform: rotate(1440deg);
     left: 0px;
     top: 0px;
+  }
+}
+
+/* line 48, ../sass/screen.sass */
+body.ios i {
+  position: absolute;
+}
+/* line 50, ../sass/screen.sass */
+body.ios i.one {
+  font-size: 80px;
+  top: 100px;
+  left: 100px;
+  -webkit-animation: clockwise 10s linear infinite;
+  -moz-animation: clockwise 10s linear infinite;
+  -ms-animation: clockwise 10s linear infinite;
+  -o-animation: clockwise 10s linear infinite;
+  animation: clockwise 10s linear infinite;
+}
+/* line 55, ../sass/screen.sass */
+body.ios i.two {
+  font-size: 100px;
+  top: 50px;
+  left: 150px;
+  -webkit-animation: counterclockwise 10s linear infinite;
+  -moz-animation: counterclockwise 10s linear infinite;
+  -ms-animation: counterclockwise 10s linear infinite;
+  -o-animation: counterclockwise 10s linear infinite;
+  animation: counterclockwise 10s linear infinite;
+}
+/* line 60, ../sass/screen.sass */
+body.ios i.three {
+  font-size: 80px;
+  top: 98px;
+  left: 220px;
+  -webkit-animation: clockwise 10s linear infinite;
+  -moz-animation: clockwise 10s linear infinite;
+  -ms-animation: clockwise 10s linear infinite;
+  -o-animation: clockwise 10s linear infinite;
+  animation: clockwise 10s linear infinite;
+}
+
+@-moz-keyframes clockwise {
+  /* line 68, ../sass/screen.sass */
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 70, ../sass/screen.sass */
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes clockwise {
+  /* line 68, ../sass/screen.sass */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 70, ../sass/screen.sass */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes clockwise {
+  /* line 68, ../sass/screen.sass */
+  0% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 70, ../sass/screen.sass */
+  100% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes clockwise {
+  /* line 68, ../sass/screen.sass */
+  0% {
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 70, ../sass/screen.sass */
+  100% {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes clockwise {
+  /* line 68, ../sass/screen.sass */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 70, ../sass/screen.sass */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes counterclockwise {
+  /* line 73, ../sass/screen.sass */
+  0% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+  /* line 75, ../sass/screen.sass */
+  100% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes counterclockwise {
+  /* line 73, ../sass/screen.sass */
+  0% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+  /* line 75, ../sass/screen.sass */
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@-o-keyframes counterclockwise {
+  /* line 73, ../sass/screen.sass */
+  0% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+  /* line 75, ../sass/screen.sass */
+  100% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@-ms-keyframes counterclockwise {
+  /* line 73, ../sass/screen.sass */
+  0% {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+  /* line 75, ../sass/screen.sass */
+  100% {
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes counterclockwise {
+  /* line 73, ../sass/screen.sass */
+  0% {
+    transform: rotate(360deg);
+  }
+
+  /* line 75, ../sass/screen.sass */
+  100% {
+    transform: rotate(0deg);
   }
 }
